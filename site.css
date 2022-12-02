@@ -1,0 +1,70 @@
+body {
+    
+    background-image: url('background-taiga.jpg');
+    color: #303030;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    width: 80%;
+    padding-left: 600;
+    padding-right: 600;
+}
+
+header {
+    padding-top: 50;
+    width: 560px;
+}
+
+section {
+    background-color: rgb(238, 221, 174);
+    opacity: 67%;
+    color: #303030;
+    width: 520px;
+    padding-left: 20;
+    padding-right: 20;
+    padding-top: 5;
+    padding-bottom: 5;
+}
+
+
+footer {
+    background-color: #303030;
+    opacity: 67%;
+    color:rgb(238, 221, 174);
+    width: 530;
+    height: 30px;
+    padding: 15px;
+    align-content: center;
+}
+
+a {
+    color: rgb(70, 110, 170);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(17, 34, 59);
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+}
+
+
+
+/*
+Följande önskemål finns:
+●Text​ och videoinnehåll skall vara centrerat
+●För​ och bakgrundsfärg skall ha relevans till filmen (Kolla på posters)
+●Länklistan skall vara horisontell
+●Footern skall vara 50px hög och ha annan bakgrundsfärg
+ än resten av sidan.Ta gärna detta tillfälle i akt att experimentera
+ lite med CSSen. Önskemålen är ettminimum, inte ett maximum. 
+ Försök få sidan att se behaglig ut.
+*/
